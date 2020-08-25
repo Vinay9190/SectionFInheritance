@@ -4,6 +4,9 @@ package definitions;
     public class MobilePhone extends Phone {
     // MobilePhone extends Phone
     // MobilePhone IS a type of phone
+        public void printContactNumber() {
+            System.out.println(getContactNumber());
+        }
 }
 
 // Two entities; every entity is a class,
