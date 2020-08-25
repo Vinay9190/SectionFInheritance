@@ -1,8 +1,12 @@
 package definitions;
 
-public class MobilePhone extends Phone  {
-   // MobilePhone extends Phone
+    // a simple mobile phone like Noika 1100
+    public class MobilePhone extends Phone {
+    // MobilePhone extends Phone
     // MobilePhone IS a type of phone
 }
 
 // Two entities; every entity is a class,
+// first entity (class: Phone.java class
+// second entity (class) : MobilePhone.java class
+// is somehow relate the two classes (entities)
