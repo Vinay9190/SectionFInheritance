@@ -9,9 +9,6 @@ public class MobilePhone extends Phone {
     }
 
 
-    public void changeContactNumber(long contactNumber) {
-        setContactNumber(contactNumber);
-    }
 }
 // The MobilePhone class is inheriting the getContactNumber() method from the Phone class.
 // The Phone class is super class /parent class.

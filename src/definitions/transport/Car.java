@@ -1,8 +1,9 @@
 package definitions.transport;
 
-public class Car extends Vehicle{
+public class Car extends FourWheeler{
 
     public void startCar() {
-        start();
+        start(); // start() method is defined inside the Vehicle class.
+
     }
 }
