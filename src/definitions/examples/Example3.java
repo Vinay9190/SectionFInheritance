@@ -4,7 +4,10 @@ public class Example3 {
     public static void main(String[] args) {
     B1 objectB1 = new B1();
     objectB1.setvalues(10,8);
-    System.out.println(objectB1.product(10,9));
+    System.out.println("product :"+objectB1.product(10,9));
+    C1 objectC1 = new C1();
+    objectC1.setvalues(20,5);
+    System.out.println("divison :"+ objectC1.division(20,5));
     }
 }
 
