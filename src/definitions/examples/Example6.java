@@ -2,13 +2,17 @@ package definitions.examples;
 
 public class Example6 {
     public static void main(String[] args) {
+        Bike myBike = new Bike(1, "Ducati V78");
+        SuperBike mySuperBike = new SuperBike(2, "Ducati X98", 400);
+        myBike.displayBikeInformation();
+       mySuperBike.displyBikeInformation();
 
     }
 }
 
 class Bike {
-    public String modelName;
     private final int idNumber;
+    public String modelName;
 
 
     public Bike(int idNumber, String modelName) {
@@ -21,13 +25,18 @@ class Bike {
         System.out.println("ModelName = " + modelName);
     }
 }
+
 class SuperBike extends Bike {
-    private  double maxSpeed;
+    private double maxSpeed;
 
     public SuperBike(int idNumber, String modelName, double maxSpeed) {
         // the super keyword
-        super(idNumber,modelName);
+        super(idNumber, modelName);
         this.maxSpeed = maxSpeed;
 
+    }
+    public void displyBikeInformation() {
+        super.displayBikeInformation();
+        System.out.println("Max speed = " + this.maxSpeed);
     }
 }
