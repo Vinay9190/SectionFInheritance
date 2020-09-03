@@ -2,7 +2,9 @@ package definitions.examples;
 
 public class Example3 {
     public static void main(String[] args) {
-
+    B1 objectB1 = new B1();
+    objectB1.setvalues(10,8);
+    System.out.println(objectB1.product(10,9));
     }
 }
 
