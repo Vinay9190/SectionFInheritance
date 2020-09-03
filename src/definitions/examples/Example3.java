@@ -19,3 +19,9 @@
         return sum;
     }
 }
+ class B1 extends A1 {
+        public int product(int x, int y) {
+        int product = i * j;
+        return product;
+        }
+ }
