@@ -7,6 +7,12 @@ public class Example5 {
     objectA2.setValues(5,6);
     objectA2.m = 10;
     objectA2.displayA();
+    objectB2.m = 6;
+    objectB2.p = 8;
+    objectB2.displayB();
+    objectB2.setValues(12,18);
+    System.out.println("j = " + objectB2.getJ());
+    System.out.println("k = " + objectB2.getk());
     }
 }
 
@@ -22,7 +28,7 @@ class A2 {
     public int m;
 
     void displayA() {
-        System.out.println("j = " + j + ", k = " + k + " m = " + m);
+        System.out.println("j = " + j + ", k = " + k + ", m = " + m);
     }
 
     public int getJ() {
@@ -37,7 +43,7 @@ class A2 {
 class B2 extends A2 {
     int p ;
 
-    void displayB2() {
+    void displayB() {
         System.out.println("p = " + p);
         System.out.println("m = " + m);
     }
