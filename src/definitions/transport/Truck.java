@@ -5,7 +5,13 @@ package definitions.transport;
 // the name of the file (Truck.java)
 // should be  exactly the same!
 
+//outer class
 public class Truck extends Vehicle {
+
+    // inner class
+    private class Engine {
+
+    }
 
 }
 class DeliveryTruck {
