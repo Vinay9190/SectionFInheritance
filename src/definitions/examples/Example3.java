@@ -25,3 +25,9 @@
         return product;
         }
  }
+ class C1 extends A1 {
+        public int division(int x , int y) {
+            int divison = x / y;
+            return divison;
+        }
+ }
