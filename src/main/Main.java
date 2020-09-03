@@ -10,8 +10,11 @@ public class Main  {
     public static void main(String[] args) {
         Vehicle myVehicle = new Vehicle();
         myVehicle.start();
+        myVehicle.stop();
         FourWheeler myfourWheeler = new FourWheeler();
         myfourWheeler.start();
+        myfourWheeler.stop();
+
 
 
     }

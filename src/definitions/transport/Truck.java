@@ -8,7 +8,7 @@ package definitions.transport;
 public class Truck extends Vehicle {
 
 }
-class DelliveryTruck {
+class DeliveryTruck {
 
     // we can access the Truck class in the same file.
     private Truck myTruck;

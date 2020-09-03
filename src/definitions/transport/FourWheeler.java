@@ -1,5 +1,7 @@
 package definitions.transport;
 
+import java.util.Scanner;
+
 public class FourWheeler extends Vehicle {
 
     // FourWheeler extends Vehicle
@@ -8,8 +10,14 @@ public class FourWheeler extends Vehicle {
     // The child class is inheriting from a single parent,
     // this is Simple Inheritance.
     // superclass -> subclass
- public void startFourWheeler(String fourWheelerName){
-    System.out.println(fourWheelerName + " has started.");
- }
+    //String car = " Bugatti ";
 
+   // Scanner scanner = new Scanner(System.in);
+
+    public void startFourWheeler(String car){
+    System.out.println( car + "has started.");
+ }
+ public void stopFourWheeler(String car) {
+     System.out.println(car + "has Stoped");
+ }
 }
