@@ -10,6 +10,7 @@ public class Truck extends Vehicle {
 
     // inner class
     private class Engine {
+        //this cannot be accessed outside the class they are declared in.
 
     }
 
