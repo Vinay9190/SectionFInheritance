@@ -13,4 +13,11 @@ class A2 {
         j = x;
         k = y;
     }
+
+public int m;
+
+    void displayA() {
+    System.out.println("j = " + j + ", k = " + k);
+    }
+
 }
