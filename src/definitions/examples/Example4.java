@@ -5,3 +5,8 @@ public class Example4 {
 
     }
 }
+
+class Vehicle {
+    float speed;
+    float mileage;
+}
