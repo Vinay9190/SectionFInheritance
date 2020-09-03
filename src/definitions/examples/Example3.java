@@ -5,3 +5,12 @@
 
         }
     }
+
+    class A1 {
+        public int i, j;
+
+        void setvalues(int x, int y) {
+            i = x;
+            j = y;
+        }
+    }
