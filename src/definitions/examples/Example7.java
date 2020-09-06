@@ -5,3 +5,6 @@ public class Example7 {
 
     }
 }
+class Airplane {
+    private  int airplanID;
+}
