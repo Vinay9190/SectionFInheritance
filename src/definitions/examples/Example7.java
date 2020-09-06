@@ -21,3 +21,6 @@ class Airplane {
     }
 }
 
+class Jet {
+
+}
