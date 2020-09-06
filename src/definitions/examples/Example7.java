@@ -21,6 +21,12 @@ class Airplane {
     }
 }
 
-class Jet {
+class Jet extends Airplane {
     int maxSpeed;
+
+    public Jet(int airplaneID, int maxSpeed) {
+        super(airplaneID);
+        this.maxSpeed = maxSpeed;
+    }
 }
+
