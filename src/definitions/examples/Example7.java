@@ -15,4 +15,9 @@ class Airplane {
     public int getAirplanID() {
         return airplanID;
     }
+
+    public void displayInformation() {
+        System.out.println("airplaneID = " + airplanID);
+    }
 }
+
