@@ -6,6 +6,8 @@ public class Example7 {
         airbus.displayInformation();
         Jet privateJet = new Jet(47,410);
         privateJet.displayInformation();
+        FighterJet rafael = new FighterJet(24,480,8);
+
     }
 }
 class Airplane {
