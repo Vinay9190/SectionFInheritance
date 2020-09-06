@@ -28,5 +28,15 @@ class Jet extends Airplane {
         super(airplaneID);
         this.maxSpeed = maxSpeed;
     }
+    @Override
+    public void displayInformation() {
+        super.displayInformation();
+        System.out.println("Max speed = " + maxSpeed);
+    }
 }
+ class FighterJet extends Jet {
+    public FighterJet(int airplaneID, int maxSpeed) {
+        super(airplaneID, maxSpeed);
+    }
+ }
 
