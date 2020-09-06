@@ -7,4 +7,8 @@ public class Example7 {
 }
 class Airplane {
     private  int airplanID;
+
+    public Airplane(int airplaneID) {
+        this.airplanID = airplaneID;
+    }
 }
