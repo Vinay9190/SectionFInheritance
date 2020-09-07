@@ -6,10 +6,12 @@ public class Example1 {
     }
 
 }
- class Human {
-    public void talk() {
-        System.out.println("");
-    }
+ abstract class Human { // this is now an  abstract class
+    abstract public void talk();
+    // this is now an abstract method.
+    // abstract : something that is not properly defind
+     // abstract method : a method whose body is not properly defind
+
  }
 
 class Student extends Human {
