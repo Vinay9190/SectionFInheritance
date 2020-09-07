@@ -10,10 +10,11 @@ public class Example1 {
 
  }
 
-class Student {
+class Student extends Human {
 
 }
 
-class Teacher {
+class Teacher extends  Human {
 
 }
+
