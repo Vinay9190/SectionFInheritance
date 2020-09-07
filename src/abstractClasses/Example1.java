@@ -7,7 +7,9 @@ public class Example1 {
 
 }
  class Human {
-
+    public void talk() {
+        System.out.println("");
+    }
  }
 
 class Student extends Human {
