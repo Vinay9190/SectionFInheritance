@@ -13,10 +13,17 @@ public class Example1 {
  }
 
 class Student extends Human {
+    @Override
+    public void talk() {
+        System.out.println("I am a Student");
+    }
 
 }
 
 class Teacher extends  Human {
-
+   @Override
+    public void talk() {
+       System.out.println("I am a Teacher");;
+    }
 }
 
