@@ -11,7 +11,7 @@ public class Example1 {
     // this is now an abstract method.
     // abstract : something that is not properly defind
      // abstract method : a method whose body is not properly defind
-
+    // implementing (overriding an abstract method)
  }
 
 class Student extends Human {
