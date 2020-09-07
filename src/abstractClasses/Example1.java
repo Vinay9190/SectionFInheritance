@@ -10,3 +10,6 @@ public class Example1 {
 
  }
 
+class Student {
+
+}
